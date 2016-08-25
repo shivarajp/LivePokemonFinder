@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string-array name="pokemon_names">
+		<item>MISSINGNO</item>
+		<item>Pikachu</item>
+		<item>Bulbasaur</item>
+		<item>Drowsee</item>
+	</string-array>
+
+	<array name="pokemons_imgs">
+		<item>@drawable/a</item>
+		<item>@drawable/aa</item>
+		<item>@drawable/b</item>
+		<item>@drawable/c</item>
+		<item>@drawable/d</item>
+		<item>@drawable/e</item>
+		<item>@drawable/f</item>
+		<item>@drawable/g</item>
+		<item>@drawable/h</item>
+		<item>@drawable/i</item>
+		<item>@drawable/j</item>
+		<item>@drawable/k</item>
+		<item>@drawable/l</item>
+		<item>@drawable/m</item>
+		<item>@drawable/n</item>
+		<item>@drawable/o</item>
+		<item>@drawable/p</item>
+		<item>@drawable/q</item>
+		<item>@drawable/r</item>
+		<item>@drawable/s</item>
+		<item>@drawable/t</item>
+		<item>@drawable/u</item>
+		<item>@drawable/v</item>
+		<item>@drawable/w</item>
+		<item>@drawable/x</item>
+		<item>@drawable/y</item>
+		<item>@drawable/z</item>
+
+
+	</array>
+
+	<string-array name="pref_pokemons_to_show_default"/>
+
+</resources>

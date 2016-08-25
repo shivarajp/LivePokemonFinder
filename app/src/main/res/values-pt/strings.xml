@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Translation by silverscorp -->
+<resources>
+
+    <string name="action_settings">Definições</string>
+    <string name="action_clearmap">Limpar Mapa</string>
+    <string name="action_logout">Terminar Sessão</string>
+
+    <string name="logout_prompt_message">Deseja realmente sair?</string>
+    <string name="yes">SIM</string>
+    <string name="no">NÃO</string>
+
+    <string name="pref_cat_user_account">Conta de utilizador</string>
+    <string name="pref_warning">NOTA: NÃO usar a conta principal de utilizador!
+        Ao invés, crie e use uma conta Pokémon Trainer Club (PTC) falsa com password e email diferentes.</string>
+    <string name="pref_username">Definir Username</string>
+
+    <string name="pref_default_username">Fulano</string>
+    <string name="pref_password">Definir Password</string>
+
+
+
+    <string name="pref_cat_general">Geral</string>
+    <string name="pref_pokestops_title">Mostrar Pokéstops</string>
+
+    <string name="pref_gyms_title">Mostrar Ginásios</string>
+
+    <string name="pref_scanned_title">Mostrar Localizações Pesquisadas</string>
+
+    <string name="pref_cat_service" translatable="false">Serviço de Notificações</string>
+    <string name="pref_service_enable_title">Ativar</string>
+
+    <string name="pref_service_refresh_title">Taxa de Atualização</string>
+    <string name="pref_service_refresh_summary">Quantas vezes o serviço irá atualizar em segundos.</string>
+
+
+    <string name="pref_cat_other">Outros</string>
+    <string name="pref_theme_button">Tema</string>
+
+    <string name="toast_credentials">Impossivel iniciar sessão. Por favor verifica as suas credenciais</string>
+    <string name="title_activity_poke_map">Pokémons Perto</string>
+
+    <string name="login_warning">Recomenda-se criar uma conta Pokémon Trainer Club falsa com a password e email diferentes
+        ou usar uma conta Google que não esteja ligada à sua conta Pokemon Go. Ao usar esta aplicação pode resultar a sua conta ser banida.</string>
+    <string name="action_sign_in">Iniciar Sessão</string>
+    <string name="error_field_required">Campo obrigatório</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="login_warning_title">Atenção:</string>
+
+    <string name="request_credentials_title">Insira as suas credenciais de acesso Pokémon Go</string>
+    <string name="search_pokemon_map_suggestion">(Toque longo no mapa para alterar a area de pesquisa)</string>
+
+    <string name="pokemon_to_show">Pokémons a mostrar</string>
+
+    <string name="ban">banido</string>
+    <string name="minutes">"minutos"</string>
+    <string name="pokemon_disappearing_in">"Desaparece em: "</string>
+    <string name="pokemon_expired">Expirado</string>
+    <string name="position_picked">Posição Escolhida</string>
+    <string name="toast_localization_waiting">À espera de posição&#8230;</string>
+    <string name="toast_login_successful">Ínicio de sessão efetuado com sucesso.</string>
+    <string name="toast_map_not_initialized">Problema ao iniciar o Google Map</string>
+    <string name="toast_server_unreachable">Impossivel contactar os servidores Pokemon Go. Os servidores poderão estar em baixo.</string>
+    <string name="toast_token_expired">A sessão expirou. A receber uma nova.</string>
+    <string name="toast_user_found">Encontrei-o</string>
+    <string name="toast_login_error">Falha ao Iniciar Sessão.</string>
+    <string name="toast_internal_error">Ocurreu um erro interno. Isto pode acontecer por estar offline ou os servidores estarem em baixo.</string>
+    <string name="toast_ptc_login_error">Falha no Ínicio de Sessão PTC </string>
+    <string name="enable_location_permission_title">Ativar Permissão de Localização</string>
+    <string name="enable_location_permission_message">Por favor ativa as permissões de localização para usar esta aplicação</string>
+    <string name="toast_no_location">Falha ao Encontrar Localização GPS</string>
+    <string name="expiring_in">"Expira em: %1$d:%2$02d"</string>
+    <string name="google_login_failed">Falha no Ínicio de Sessão da Google</string>
+    <string name="permition_message">Por favor permita a localização para usar a aplicação</string>
+    <string name="allow">Permitir</string>
+    <string name="app_settings">Definições da Aplicação</string>
+    <string name="disclaimer">Aviso Legal</string>
+
+
+    <string name="toast_searching">À procura</string>
+    <string name="toast_pokemon_found_count">"Pokémons encontrados"</string>
+    <string name="pokemon_found_none">Não foram encontrados novos Pokémons.</string>
+    <string name="pokemon_found_new">"novos pokémons encontrados."</string>
+
+    <string name="notification_service_title">Serviço Pokémap</string>
+    <string name="notification_service_scanning">À procura</string>
+    <string name="notification_service_stop">Stop Service</string>
+    <string name="meters">metros</string>
+    <string name="gym">Ginásio</string>
+    <string name="toast_google_login_error">Falha no Ínicio de Sessão Google</string>
+    <string name="authentication_lbl">Ligar .. Pode levar alguns minutos em conexão lenta</string>
+    <string name="google_login_moto">Parabéns, agora vincular sua conta do Google e assistir Pokemons Live.</string>
+    <string name="google_login_note">Nota: Tente não usar seu e-mail pokemongo, Niantic pode bloquear a sua conta.</string>
+    <string name="nav_post_map">Posts Mapa</string>
+
+//New
+
+    <string name="app_name">Poke Friendz</string>
+    <string name="menu_login">log in</string>
+    <string name="menu_logout">sair</string>
+    <string name="login_label">log-In</string>
+    <string name="email_label">email</string>
+    <string name="password_label">senha</string>
+    <string name="send_text">enviar</string>
+    <string name="lorem">![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ante nec condimentum, consequat qisis, Orci lacus venenatis Orci, ntum do Deus vivo. Eu odio id nulla lobortis um presente.]]</string>
+    <string name="title_sign_in">bem-vindo</string>
+    <string name="sign_up">Registar-se</string>
+    <string name="hint_password">senha</string>
+    <string name="hint_email">e-mail</string>
+    <string name="sign_in"> Entrar</string>
+    <string name="location_enabled">![CDATA[Localização ativado com êxito]]</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2336406710717678/1620333943</string>
+    <string name="navigation_drawer_open">![CDATA[Gaveta de navegação aberta]]</string>
+    <string name="navigation_drawer_close">![CDATA[Feche a gaveta de navegação]]</string>
+    <string name="nav_home">casa</string>
+    <string name="nav_newpost">novo Post</string>
+    <string name="nav_chat">bate-papo</string>
+    <string name="nav_changeloc">Change My Location</string>
+    <string name="nav_shareapp">Compartilhar Pokemongo</string>
+    <string name="nav_contactus">Entre em contato conosco</string>
+    <string name="text_empty_message">Por favor escreva algo</string>
+    <string name="pokemon_gallery">Pokemon Wallpapers HD</string>
+    <string name="connent_lbl">comentário</string>
+    <string name="share_lbl">![CDATA[ação]]</string>
+    <string name="pokes_lbl">cutucou</string>
+    <string name="poke_lbl">cotovelada</string>
+    <string name="nav_post_distance">distância</string>
+    <string name="select_distance_title">Select distância em metros</string>
+    <string name="signup_failed_err">Registar-se Falhou</string>
+    <string name="signin_link_msg">![CDATA[Já está registado? Entre aqui]]</string>
+    <string name="link_signup_msg">Ainda não tem conta? Registe-se aqui</string>
+    <string name="nav_map">mapa</string>
+
+    <string name="newpost_msg_hint">![CDATA[1 encontrou uma academia aqui, alguém se venha e pegue aqui]]</string>
+    <string name="newpost_title_hint">Título: Gym, Dragon</string>
+    <string name="no_posts_found">![CDATA[Ninguém, depois que o primeiro a ser publicado em torno de você]]</string>
+    <string name="hours_ago">horas atrás</string>
+    <string name="title_activity_show_post_map">mapa</string>
+    <string name="post_view_map">Ver Mapa</string>
+    <string name="nav_pokemon_map">Pokemon Mapa Radar</string>
+
+    <string name="hello_blank_fragment">![CDATA[Olá folha em branco]]</string>
+    <string name="today_lbl">hoje</string>
+    <string name="my_posts_lbl">meus posts</string>
+    <string name="all_posts_lbl">todas as mensagens</string>
+
+    <string name="signin_err"><![CDATA[Desculpe, por favor, verificar e-mail e senha comprimento é de mais de 6 caracteres]]></string>
+    <string name="empty_comment_err">Please write some comment then click send</string>
+
+</resources>

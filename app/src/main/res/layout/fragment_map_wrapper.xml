@@ -1,0 +1,61 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.map.MapWrapperFragment">
+
+    <!--<fragment xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:name="com.google.android.gms.maps.MapFragment"-->
+    <!--android:id="@+id/map"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+    <FrameLayout
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/location_fab"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="35dp"
+        android:src="@drawable/ic_my_location_white_24dp"
+        app:rippleColor="?attr/actionModeSplitBackground" />
+
+    <LinearLayout
+        android:id="@+id/layoutSuggestions"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="?actionBarSize"
+        android:background="#4D000000"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtSuggestions"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/search_pokemon_map_suggestion"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/closeSuggestions"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:padding="4dp"
+            android:src="@drawable/ic_close_white_24dp" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

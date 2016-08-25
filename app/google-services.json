@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "245715975003",
+    "firebase_url": "https://pokemon-friendz-backend.firebaseio.com",
+    "project_id": "pokemon-friendz-backend",
+    "storage_bucket": "pokemon-friendz-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245715975003:android:f6fb66e281eabeba",
+        "android_client_info": {
+          "package_name": "com.pokemongo.friendz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245715975003-eh6c8c6djfrrc6efca26mganq9v0a5dr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pokemongo.friendz",
+            "certificate_hash": "4E8DCBC51FE00DEC45D9870548E139D6856D7DA5"
+          }
+        },
+        {
+          "client_id": "245715975003-ck01vgbq75bcsma1fbh809qm9m1hkjq1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pokemongo.friendz",
+            "certificate_hash": "EE33F757E071F7824C1B0A34CB2CEC728FC1D34B"
+          }
+        },
+        {
+          "client_id": "245715975003-h64cburl2f8065aqkdndtti290kprbkg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYQVXOPWr7osn2W5GeMEeNhJufWkByixY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245715975003-h64cburl2f8065aqkdndtti290kprbkg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245715975003:android:5a32b34755e271ce",
+        "android_client_info": {
+          "package_name": "com.shivaraj.friendz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245715975003-1sjuu7pv8b06pgpale96ncq1t2kt5c01.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shivaraj.friendz",
+            "certificate_hash": "EE33F757E071F7824C1B0A34CB2CEC728FC1D34B"
+          }
+        },
+        {
+          "client_id": "245715975003-s77kslfqvfjin61a54g8thpmtbdkjek3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shivaraj.friendz",
+            "certificate_hash": "4E8DCBC51FE00DEC45D9870548E139D6856D7DA5"
+          }
+        },
+        {
+          "client_id": "245715975003-h64cburl2f8065aqkdndtti290kprbkg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYQVXOPWr7osn2W5GeMEeNhJufWkByixY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245715975003-h64cburl2f8065aqkdndtti290kprbkg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,159 @@
+<resources>
+
+    <string name="action_settings">設定</string>
+    <string name="action_clearmap">地図クリア</string>
+    <string name="action_logout">ログアウト</string>
+
+    <string name="logout_prompt_message">ログアウトしますか？</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+
+    <string name="pref_cat_user_account">アカウント</string>
+    <string name="pref_warning">メモ: このアプリケーションには、あなたのメインアカウントを使用しないでください！
+        代わりのカウントを作成して使用すると良いでしょう。</string>
+    <string name="pref_username">ユーザ名</string>
+    <string name="pref_default_username">Satoshi</string>
+    <string name="pref_password">パスワード</string>
+
+
+    <string name="pref_cat_general">一般</string>
+    <string name="pref_pokestops_title">ポケストップを表示する</string>
+    <string name="pref_gyms_title">ジムを表示する</string>
+    <string name="pref_scanned_title">スキャンした場所を表示する</string>
+    <string name="pokestop" translatable="false">ポケストップ</string>
+
+
+    <string name="pref_cat_service" translatable="false">バックグラウンドサービス</string>
+    <string name="pref_service_enable_title">有効</string>
+    <string name="pref_service_refresh_title">更新間隔</string>
+    <string name="pref_service_refresh_summary">何秒ごとに更新しますか。</string>
+
+    <string name="pref_cat_other">その他</string>
+
+    <string name="toast_credentials">ログインできません。アカウント情報を確認してください。</string>
+    <string name="title_activity_poke_map">近くのポケモン</string>
+
+    <string name="login_warning">あなたが普段使っているポケモンGOのアカウントは使用しないでください。
+        代わりのアカウントを使用することをお勧めします。</string>
+    <string name="prompt_username">PTC ユーザーネーム</string>
+    <string name="prompt_password">PTC パスワード</string>
+    <string name="action_sign_in">サインイン</string>
+    <string name="error_field_required">必須項目</string>
+    <string name="title_activity_maps">地図</string>
+    <string name="login_warning_title">注意：</string>
+
+    <string name="request_credentials_title">あなたのポケモンGO情報を入力してください</string>
+    <string name="search_pokemon_map_suggestion">(探索したい場所で地図上を長押しする) </string>
+
+    <string name="pokemon_to_show">表示するポケモンを選ぶ</string>
+
+    <string name="action_relogin">再ログイン</string>
+    <string name="ban">禁止されました</string>
+    <string name="minutes">"秒"</string>
+    <string name="pokemon_disappearing_in">"消えます: "</string>
+    <string name="pokemon_expired">期限切れ</string>
+    <string name="position_picked">選択位置</string>
+    <string name="seconds">"秒"</string>
+    <string name="toast_localization_waiting">座標を待っています&#8230;</string>
+    <string name="toast_login_successful">ログインに成功しました</string>
+    <string name="toast_map_not_initialized">Google Mapの初期化エラーです</string>
+    <string name="toast_server_unreachable">ポケモンGOのサーバーに接続できません。 サーバーが落ちています。</string>
+    <string name="toast_token_expired">アクセストークンの期限が切れました。新しく取得します。</string>
+    <string name="toast_user_found">見つけた！</string>
+    <string name="toast_login_error">ログインできません。</string>
+    <string name="toast_internal_error">内部エラーが発生しました。 ネットワークがオフラインか、サーバーがダウンしている可能性があります。</string>
+    <string name="toast_ptc_login_error">PTCにログインできません。</string>
+    <string name="enable_location_permission_title">位置情報許可</string>
+    <string name="enable_location_permission_message">位置情報の使用を許可してください</string>
+    <string name="toast_no_location">GPSの位置情報が取得出来ません</string>
+    <string name="expiring_in">"有効期限: %1$d:%2$02d"</string>
+    <string name="google_login_failed">Googleにログイン出来ません</string>
+    <string name="permition_message">位置情報設定を許可してください</string>
+    <string name="allow">許可する</string>
+    <string name="app_settings">アプリ設定</string>
+    <string name="disclaimer">免責事項</string>
+
+
+    <string name="toast_searching">検索中&#8230;</string>
+    <string name="toast_pokemon_found_count">"ポケモン発見"</string>
+    <string name="pokemon_found_none">ポケモンを発見できません。</string>
+    <string name="pokemon_found_new">新たに%1$d匹のポケモンを発見しました。</string>
+
+    <string name="notification_service_title">Pokémap Service</string>
+    <string name="notification_service_scanning">検索中</string>
+    <string name="notification_service_stop">サービスを停止</string>
+    <string name="notification_service_pokemon_near">%1$d匹のポケモンが近くにいます</string>
+    <string name="notification_service_pokemon_in_area">%1$d匹のポケモンがこのエリアにいます</string>
+    <string name="meters">メートル</string>
+    <string name="gym">ジム</string>
+
+    <string name="button_ok">OK</string>
+    <string name="toast_google_login_error">Googleにログインできません。</string>
+    <string name="toast_still_searching">検索中&#8230; %1$d匹のポケモンを発見</string>
+    <string name="pref_lured_title">ルアーモジュールのポケモンを表示する</string>
+    <string name="pref_search_steps">検索ステップ</string>
+    <string name="pref_theme_button">テーマ</string>
+    <string name="default_string">デフォルト</string>
+    <string name="notification_service_inbox_line">%1$s (%2$d 分, %3$d m)</string>
+    <string name="preset_themes_title">プリセットテーマ</string>
+    <string name="notification_service_launch_pokemon_go">Pokémon GOを起動</string>
+    <string name="authentication_lbl">..接続すると、接続速度が遅い上に数分かかる場合があります</string>
+    <string name="google_login_moto">おめでとうは、今すぐあなたのGoogleアカウントをリンクし、ライブのポケモンを見て。</string>
+    <string name="google_login_note">注：お使いのpokemongoの電子メールを使用しないようにしよう、アンティックアカウントをブロックすることがあります。</string>
+    <string name="nav_post_map">投稿の地図</string>
+
+    //New
+    <string name="app_name">ポケモンFriendz</string>
+    <string name="menu_login">ログイン</string>
+    <string name="menu_logout">ログアウト</string>
+    <string name="login_label">ログイン</string>
+    <string name="email_label">メール</string>
+    <string name="password_label">パスワード</string>
+    <string name="send_text">送信</string>
+    <string name="lorem">![CDATA[Loremのイプサムの嘆き、AMET consecteturのadipiscingのELIT座ります。 Aenean NECのcondimentumのアンティ、qisisのconsequat、orciラクスvenenatis orci、ntum生ける神。 EuのodioのIDのNULLAは存在しlobortis。]]</string>
+    <string name="title_sign_in">歓迎</string>
+    <string name="sign_up">サインアップ</string>
+    <string name="hint_password">パスワード</string>
+    <string name="hint_email">メール</string>
+    <string name="sign_in">サインイン</string>
+    <string name="location_enabled">場所は正常に有効化</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2336406710717678/1620333943</string>
+    <string name="navigation_drawer_open">![CDATA[オープンナビゲーションドロワー]]</string>
+    <string name="navigation_drawer_close">![CDATA[ナビゲーションドロワーを閉じます]]</string>
+    <string name="nav_home">ホーム</string>
+    <string name="nav_newpost">新しいポスト</string>
+    <string name="nav_chat">チャット</string>
+    <string name="nav_changeloc">私の場所を変更</string>
+    <string name="nav_shareapp">シェアPokemongo</string>
+    <string name="nav_contactus">お問い合わせ</string>
+    <string name="text_empty_message">何かを入力してください。</string>
+    <string name="pokemon_gallery">ポケモン壁紙のHD</string>
+    <string name="connent_lbl">コメント</string>
+    <string name="share_lbl">シェア</string>
+    <string name="pokes_lbl">つつい</string>
+    <string name="poke_lbl">突きます</string>
+    <string name="nav_post_distance">距離</string>
+    <string name="select_distance_title">メーターで距離を選択</string>
+    <string name="signup_failed_err">サインアップに失敗しました</string>
+    <string name="signin_link_msg">![CDATA[既に登録されていますか？ここでサインイン]]</string>
+    <string name="link_signup_msg">![CDATA[まだアカウント無しか。ここでサインアップ]]</string>
+    <string name="nav_map">地図</string>
+
+    <string name="newpost_msg_hint">![CDATA[1ここでは、ジムを見つけた、いくつかのいずれかが来て、ここでそれを取得します]]</string>
+    <string name="newpost_title_hint">![CDATA[タイトル：ジム、ドラゴン]]</string>
+    <string name="no_posts_found">![CDATA[あなたの周りに掲載された最初の1の後に誰もいません、]]</string>
+    <string name="hours_ago">時間前</string>
+    <string name="title_activity_show_post_map">地図</string>
+    <string name="post_view_map">地図を表示</string>
+    <string name="nav_pokemon_map">![CDATA[ポケモンレーダーマップ]]</string>
+
+
+    <string name="hello_blank_fragment">![CDATA[こんにちはブランク材]]</string>
+    <string name="today_lbl"> 今日</string>
+    <string name="my_posts_lbl"> 私の投稿</string>
+    <string name="all_posts_lbl"> 全ての記事</string>
+
+    <string name="signin_err"><![CDATA[申し訳ありませんが、確認してください電子メールとパスワードの長さ以上の6文字です]]></string>
+    <string name="empty_comment_err">Please write some comment then click send</string>
+
+</resources>

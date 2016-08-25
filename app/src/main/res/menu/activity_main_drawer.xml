@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_live_map"
+            android:icon="@drawable/map_nav"
+            android:title="@string/nav_pokemon_map" />
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/chat24"
+            android:title="@string/nav_chat" />
+
+        <item
+            android:id="@+id/nav_post_map"
+            android:icon="@drawable/location24"
+            android:title="@string/nav_post_map" />
+
+        <item
+            android:id="@+id/nav_change_loc"
+            android:icon="@drawable/location24"
+            android:title="@string/nav_changeloc" />
+
+        <item
+            android:id="@+id/nav_new_post"
+            android:icon="@drawable/newpost24"
+            android:title="@string/nav_newpost" />
+
+        <item
+            android:id="@+id/nav_post_distance"
+            android:icon="@drawable/distance24"
+            android:title="@string/nav_post_distance" />
+
+        <!--<item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/pokemon_gallery" />-->
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings24"
+            android:title="@string/action_settings" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_shareapp" />
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/contact"
+                android:title="@string/nav_contactus" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logoutsymbol"
+                android:title="@string/menu_logout" />
+
+        </menu>
+    </item>
+
+</menu>

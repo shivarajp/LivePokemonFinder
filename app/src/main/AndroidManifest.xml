@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shivaraj.friendz">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.shivaraj.friendz.views.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name="com.shivaraj.friendz.views.LoginActivity" />
+        <activity
+            android:name="com.shivaraj.friendz.views.settings.SettingsActivity"
+            android:parentActivityName="com.shivaraj.friendz.views.MainActivity" />
+        <activity
+            android:name="com.shivaraj.friendz.views.GoogleAuthActivity"
+            android:parentActivityName="com.shivaraj.friendz.views.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.shivaraj.friendz.views.settings.ThemeActivity"
+            android:parentActivityName="com.shivaraj.friendz.views.settings.SettingsActivity" />
+
+        <!--
+             use an alias in case we want to change the launch activity later without breaking
+             homescreen shortcuts.  Note must be defined after the targetActivity
+        -->
+        <activity-alias
+            android:name=".Launcher"
+            android:label="@string/app_name"
+            android:targetActivity="com.shivaraj.friendz.views.LoginActivity"></activity-alias>
+
+        <service
+            android:name="com.shivaraj.friendz.controllers.service.PokemonNotificationService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.shivaraj.friendz.STOP_SERVICE" />
+            </intent-filter>
+
+        </service>
+
+        <!--other activities-->
+
+        <activity
+            android:name="com.shivaraj.friendz.shivaraj.activities.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.shivaraj.friendz.shivaraj.activities.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.shivaraj.friendz.shivaraj.activities.NewPostActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shivaraj.friendz.shivaraj.activities.SignInActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="com.shivaraj.friendz.shivaraj.activities.PostDetailActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shivaraj.friendz.shivaraj.activities.ChatActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.shivaraj.friendz.shivaraj.CloudMessaging.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- [END firebase_service] -->
+        <!-- [START firebase_iid_service] -->
+        <service android:name="com.shivaraj.friendz.shivaraj.CloudMessaging.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- [END firebase_iid_service] -->
+
+        <activity
+            android:name="com.shivaraj.friendz.shivaraj.activities.ShowPostMapActivity"
+            android:label="@string/title_activity_show_post_map"
+            android:screenOrientation="portrait" />
+
+
+    </application>
+
+</manifest>

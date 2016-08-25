@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.shivaraj.friendz.shivaraj.activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <include layout="@layout/activity_main2_new" />
+    </LinearLayout>
+
+    <!--<android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    &lt;!&ndash;app:layout_constraintLeft_toLeftOf="@+id/constraintLayout2"
+    tools:layout_constraintLeft_creator="1"
+    app:layout_constraintTop_toTopOf="@+id/constraintLayout2"
+    tools:layout_constraintTop_creator="1"
+    app:layout_constraintRight_toRightOf="@+id/constraintLayout2"
+    tools:layout_constraintRight_creator="1"
+    app:layout_constraintBottom_toBottomOf="@+id/constraintLayout2"
+    tools:layout_constraintBottom_creator="1"&ndash;&gt;
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_new_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_image_edit" />-->
+
+</android.support.design.widget.CoordinatorLayout>

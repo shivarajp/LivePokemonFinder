@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.shivaraj.friendz.shivaraj.activities.MainActivity">
+
+
+    <item
+        android:id="@+id/action_chat"
+        android:title="@string/nav_chat"
+        android:visible="true"
+        android:icon="@drawable/chat24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_changeloc"
+        android:title="@string/nav_changeloc"
+        android:visible="true"
+        android:icon="@drawable/location24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_newpost"
+        android:title="@string/nav_newpost"
+        android:icon="@drawable/newpost24"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/menu_logout"
+        android:icon="@drawable/logoutsymbol"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/quantum_ic_refresh_white_24"
+        android:title="refresh"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_live_map"
+        android:icon="@drawable/map_nav"
+        android:title="Map"
+        app:showAsAction="always" />
+
+</menu>
